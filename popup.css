@@ -1,0 +1,30 @@
+body {
+	background-color: #35a8df;
+	min-width: 150px;
+	/*width: 200px;*/
+	text-align: center;
+}
+p{
+	white-space:nowrap;
+}
+hr{
+	border: 0px dashed;
+}
+#main{
+	
+	display: block;
+}
+#name{
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 5px;
+}
+#resultinfo{
+	font-family: Consolas, monaco, monospace Arial;
+	font-size: 5px;
+	color: #3C3C3D;
+	text-align: left;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+#savebutton{
+	text-align: center;
+}

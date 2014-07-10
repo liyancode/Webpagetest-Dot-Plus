@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Blacklist Checking
+	</title>
+	<link rel="stylesheet" type="text/css" href="popup.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/css3buttons.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
+</head>
+<script src="src_js/d3.v3.min.js"></script>
+<script src="src_js/canvg-1.3/rgbcolor.js"></script> 
+<script src="src_js/canvg-1.3/StackBlur.js"></script>
+<script src="src_js/canvg-1.3/canvg.js"></script>
+<script src="src_js/jquery-2.0.0.min.js"></script>
+<script src="src_js/Base64.js"></script>
+<script src="popup.js"></script>
+
+<body style="overflow:hidden">
+	<div id="main">
+		<p id="name">WebPageTest.+</p>
+		<hr>
+		<div id="resultinfo">
+			<p id="test_url"></p>
+			<p id="total_requests"></p>
+		</div>
+		<hr>
+		<div id="savebutton">
+			<a href="#" id="save_svg" class="button" title="Save analysis result as a svg file.">
+				<span class="downarrow icon" ></span>
+				save result as SVG
+			</a>
+		</div>
+        <hr>
+        <div id="savetextbutton">
+            <a href="#" id="save_text" class="button" title="Save analysis result as a txt file.">
+                <span class="downarrow icon" ></span>
+                save result as TXT
+            </a>
+        </div>
+		<div id="tree_svg" style="display:none">
+		</div>
+		<hr>
+	</div>
+</body>
+
+</html>
